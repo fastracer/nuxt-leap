@@ -1,12 +1,11 @@
 export const state = () => ({
   user: null,
   isAuthenticated: false,
-  token: null,
 })
 
 export const mutations = {
-  SET_TOKEN: (state, token) => {
-    state.token = token
+  SETE_AUTHENTICATED: (state) => {
+    state.isAuthenticated = true
   },
   SET_USER: (state, user) => {
     state.user = user
@@ -17,6 +16,9 @@ export const mutations = {
 export const actions = {
   setUser({ commit }, user) {
     commit('SET_USER', user)
+  },
+  authenticated({ commit }) {
+    commit('SETE_AUTHENTICATED')
   },
 }
 

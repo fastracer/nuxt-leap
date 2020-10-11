@@ -8312,6 +8312,11 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-session@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/nuxt-session/-/nuxt-session-1.0.3.tgz#1d63ea0d922b1e968516699617727a99f0802a21"
+  integrity sha512-rIB3pjleaRxmPKDw0gDu83nMCe9VjL2UqjQDwDcyS5dMSsdhXhtyNdG1TnrMBQMB+QPbWJcAkwdp/mQJif8Arg==
+
 nuxt@^2.14.6:
   version "2.14.6"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.6.tgz#56ba99cbd055ebdb33250a4d1ed09f084ad7fa14"
